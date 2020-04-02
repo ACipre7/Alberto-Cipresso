@@ -32,10 +32,10 @@ int sumOfDigits(int n, int arr[], int nDigits) {
         h2 *= 10;
     }
 
-    int sum = 0;
+    int sam = 0; // newStuff branch
     for (int j = 0; j < nDigits; ++j) {
-        sum += arr[j];
+        sam += arr[j];
     }
 
-    return sum;
+    return sam;
 }
