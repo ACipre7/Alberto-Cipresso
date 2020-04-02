@@ -19,13 +19,13 @@ int sumOfDigits(int n) {
 }
 
 int sumOfDigits(int n, int arr[], int nDigits) {
-    int dix1 = 1;
-    int dix2 = 10;
+    int h1 = 1;
+    int h2 = 10;
     for (int i = 0; i < nDigits; ++i) {
-        arr[i] = (n % dix2) / dix1;
+        arr[i] = (n % h2) / h1;
         // 1234 -> % 10 = 4 --> / 1 --> 4
-        dix1 *= 10;
-        dix2 *= 10;
+        h1 *= 10;
+        h2 *= 10;
     }
 
     int sum = 0;
