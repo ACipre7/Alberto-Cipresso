@@ -3,7 +3,6 @@
 //
 
 #include <string>
-#include "sumDigits.h"
 
 using namespace std;
 
