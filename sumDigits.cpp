@@ -11,7 +11,7 @@ int sumOfDigits(int n) {
     string s = to_string(n);
 
     int sum = 0;
-    for (int j = 0; j < s.size(); ++j) {
+    for (int j = 0; j <= s.size(); ++j) {
         sum += s[j] - 48;
     }
 
